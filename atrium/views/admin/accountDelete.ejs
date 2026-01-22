@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <%- include('shared/head') %>
+</head>
+<body>
+<div class="pageWrapper">
+    <%- include('shared/navbar') %>
+
+    <div class="contentWrapper2" >
+        <h1 class="PageTitle">Delete Account</h1>
+
+        <form action="/api/admin/accounts/delete" method="post">
+            <div class="formGroup">
+                <%- include('shared/errorMessage') %>
+            </div>
+
+            <div class="formGroup hide">
+                <label class="form-label" for="Callback">Callback</label>
+                <input name="callback" id="Callback" type="text" placeholder="Callback" class="form-control" required value="/admin/accounts/delete">
+            </div>
+
+            <div class="formGroup hide">
+                <label class="form-label" for="Callback">Callback Success</label>
+                <input name="callbackSuccess" id="Callback" type="text" placeholder="Callback" class="form-control" required value="/admin/accounts">
+            </div>
+
+            <div class="verticalContainer" style="margin-top: 22px;">
+                <div class="formGroup">
+                    <label class="form-label" for="UserIdInput">Account Id</label>
+                    <input name="id" id="UserIdInput" type="text" placeholder="Account Id" class="form-control" required>
+                </div>
+
+                <div class="formGroup">
+                    <button id="SubmitDataBtn" class="btn btn-danger">Submit</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

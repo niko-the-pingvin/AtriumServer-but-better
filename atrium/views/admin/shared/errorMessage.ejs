@@ -1,0 +1,8 @@
+<% if(errorMessage !== undefined) { %>
+    <div class="alert alert-danger">
+        <strong>Error!</strong>
+        <div class="danger validation-summary-errors">
+            <p><%- errorMessage %></p>
+        </div>
+    </div>
+<% } %>

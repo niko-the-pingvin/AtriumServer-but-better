@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <%- include('shared/head') %>
+</head>
+<body>
+<div class="pageWrapper">
+    <%- include('shared/navbar') %>
+
+    <div class="contentWrapper2" >
+        <h1 class="PageTitle">Database Info</h1>
+
+        <div class="formGroup">
+            <h3>
+                Environment: <%- dbName %>
+                <br>
+                Models: <%- models %>
+                <br>
+                Mongoose: <%- version %>
+            </h3>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
