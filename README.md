@@ -23,7 +23,7 @@ These features may include:
 <ul>
   <li>generateKey.js - npm run generate - to generate keys for your auth tokens to then put in your .env file</li>
   <li>createAccount.js - npm run createAccount - a slightly easier way to create your account on the DB without having to completely create it manually</li>
-  <li>createGameconfig.js - npm run createAccount - a slightly easier way to create a gameconfig manually without having to completely create it manually, and also due to gameconfigs not working on the admin panel.</li>
+  <li>createGameconfig.js - npm run createGameConfig - a slightly easier way to create a gameconfig manually without having to completely create it manually, and also due to gameconfigs not working on the admin panel.</li>
 </ul>
 
 ## Warnings:
