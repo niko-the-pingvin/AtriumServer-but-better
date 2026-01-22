@@ -32,4 +32,5 @@ These features may include:
   <li>The server is not and will not be finished.</li>
   <li>Giving your account the "admin" role will give you permission to use the unfinished admin panel - /admin/login</li>
   <li>NO AI was used to create this server, if any help was required from making this it was documentation and stack overflow posts, lol.</li>
+  <li>If you want to give feedback please tell me how I can improve or what sucked in general, thanks.</li>
 </ul>
