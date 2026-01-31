@@ -1,21 +1,22 @@
 # Atrium Server
-Atrium a defunct social vr game for playing games with friends, which has been cancelled due to leaks, etc.
+## BUT BETTER!!!
+Atrium a defunct social VR game for playing games with friends, which has been cancelled due to leaks, etc.
 <br>
 This is the official server for Atrium which you may use for whatever you want, may that be education, messing around, etc.
 
 ## Components
-The server is made with these main components:
+The server is unfortunately made with these main components:
 <ul>
-  <li>NodeJS (commonjs)</li>
-  <li>ExpressJS</li>
-  <li>EJS</li>
-  <li>Mongoose/MongoDB</li>
-  <li>bcrypt</li>
-  <li>jsonwebtoken/JWT</li>
+  <li>unfortunately NodeJS (commonjs)</li>
+  <li>unfortunately ExpressJS</li>
+  <li>unfortunately EJS</li>
+  <li>unfortunately Mongoose/MongoDB</li>
+  <li>unfortunately bcrypt</li>
+  <li>unfortunately jsonwebtoken/JWT</li>
 </ul>
 
 ## Features
-For the public release of the repo there are some special features for ease of access due to things not being finished.
+For the public release of the repository there are some special features for ease of access due to things not being finished.
 Found in /repofeatures.
 <br>
 <br>
